@@ -1,5 +1,6 @@
 package com.acceleratedskillup;
 
-def add(firstNumber, secondNumber) {
-  return firstNumber+secondNumber
+def checkOutFrom(repo) {
+  git url: "${repo}"
 }
+return this
