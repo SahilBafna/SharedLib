@@ -2,7 +2,7 @@
 def printName(repo) {
   //git clone "${repo}"
   //echo 'hello ${repo}'
-  ["git", "clone", "${repo}"].execute()
+  ["git", "clone", "https://github.com/SahilBafna/Petclinic.git"].execute()
 }
-return this
+//return this
 
