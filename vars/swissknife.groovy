@@ -3,4 +3,5 @@ def printName(repo) {
   git url: "${repo}"
   //echo 'hello ${repo}'
 }
+return this
 
