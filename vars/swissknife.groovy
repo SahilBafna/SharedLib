@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
-def checkOutFrom(repo) {
+def printName(repo) {
   //git url: "${repo}"
   echo 'hello ${repo}'
 }
-return this
+
