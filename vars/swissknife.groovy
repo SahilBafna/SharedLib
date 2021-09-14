@@ -1,3 +1,4 @@
-def printName(name){
-	echo "${name}"
+def checkOutFrom(repo) {
+  git url: "${repo}"
 }
+return this
