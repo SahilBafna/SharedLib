@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 def printName(repo) {
-  git url: "${repo}"
+  git "${repo}"
   //echo 'hello ${repo}'
 }
 return this
